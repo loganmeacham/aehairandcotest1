@@ -3709,7 +3709,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				/* height: auto; */
 				min-height: 0;
 			}
 
@@ -3722,7 +3722,7 @@ input, select, textarea {
 				}
 
 				#banner .more {
-					display: none;
+					/* display: none; */
 				}
 
 		}
