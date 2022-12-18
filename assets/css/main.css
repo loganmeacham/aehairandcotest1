@@ -3342,7 +3342,7 @@ input, select, textarea {
 			z-index: 10001;
 		}
 
-	#menu {
+	#menu{
 		-moz-transform: translateX(20em);
 		-webkit-transform: translateX(20em);
 		-ms-transform: translateX(20em);
@@ -3363,7 +3363,13 @@ input, select, textarea {
 		top: 0;
 		width: 20em;
 		z-index: 10002;
+
 	}
+
+		#menu a:hover {
+			color: black;
+			padding-left: 5px;
+		}
 
 		#menu ul {
 			list-style: none;
