@@ -3729,7 +3729,7 @@ input, select, textarea {
 				#banner br {
 					display: none;
 				}
-
+/* Changes explore button distance from bottom, change bottom to 2em to return to original */
 				#banner .more {
 					/* display: none; */
 					bottom: 6em;
