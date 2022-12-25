@@ -3365,8 +3365,11 @@ input, select, textarea {
 		z-index: 10002;
 
 	}
-
+/* Changes menu hover characteristics */
 		#menu a:hover {
+			transition-delay: 100ms;
+			transition-property: color;
+			transition-property: padding-left;
 			color: black;
 			padding-left: 5px;
 		}
