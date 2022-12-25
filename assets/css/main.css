@@ -3727,11 +3727,11 @@ input, select, textarea {
 				}
 
 				#banner br {
-					display: none;
+					/* display: none; */
 				}
 /* Changes explore button distance from bottom, change bottom to 2em to return to original */
 				#banner .more {
-					display: none;
+					/* display: none; */
 					/* bottom: 6em; */
 				}
 
