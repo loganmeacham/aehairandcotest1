@@ -3895,6 +3895,8 @@ input, select, textarea {
 
 /* Footer */
 
+	#footer 
+
 	#footer {
 		padding: 1em 0 1em 0 ;
 		background-color: #1d242a;
@@ -3959,7 +3961,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			#footer {
-				padding: 4em 3em 2em 3em ;
+				padding: 3em 2em 3em ;
 			}
 
 		}
