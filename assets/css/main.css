@@ -3906,7 +3906,7 @@ input, select, textarea {
 	background-position: center center;
 	background-repeat: no-repeat;
 	/* background-size: cover; */
-	background-size: fit;
+	background-size: 100%;
 	text-align: center;
 }
 
