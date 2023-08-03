@@ -2413,11 +2413,11 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color: rgba(255, 255, 255, 0.65);
 		border-radius: 3px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #fff;
-		color: #fff;
+		color: #000000;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -3892,6 +3892,80 @@ input, select, textarea {
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+
+/* Our Services Header */
+
+#main-our-services {
+	padding: 12em 0 10em 0 ;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/our-services.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/our-services.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/our-services.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/our-services.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+	#main-our-services > header h2 {
+		font-size: 1.75em;
+		margin: 0 0 0.5em 0;
+	}
+
+	#main-our-services > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#main-our-services > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#main-our-services > header {
+			padding: 10em 0 8em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#main-our-services > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#main-our-services > header {
+			padding: 10em 3em 8em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#main-our-services > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#main-our-services > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #main-our-services > header {
+	background-attachment: scroll;
+}
+
 
 /* Footer */
 
