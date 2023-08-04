@@ -4079,6 +4079,17 @@ body.is-mobile #main-our-services > header {
 		background-size: cover;
 	}
 
+	/* new get started photo */
+	body.is-mobile.landing .wrapper.style6.owner {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/amy-emily.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/amy-emily.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/amy-emily.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/amy-emily.jpg");
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
