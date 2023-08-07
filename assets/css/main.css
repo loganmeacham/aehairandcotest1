@@ -2341,6 +2341,8 @@ input, select, textarea {
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
+		font-family: 'Big Shoulders Inline Text', cursive; 
+		font-size: 150%;
 	}
 
 		table tbody tr {
@@ -2350,7 +2352,7 @@ input, select, textarea {
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.25);
+				background-color: rgb(194, 152, 135)
 			}
 
 		table td {
