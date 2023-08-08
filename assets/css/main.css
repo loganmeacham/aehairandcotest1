@@ -102,10 +102,10 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+/* Font */
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: 'Big Shoulders Inline Text', "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -115,7 +115,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 16pt;
 			}
 
 		}
@@ -123,7 +123,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 15pt;
 			}
 
 		}
@@ -131,7 +131,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 14pt;
 				letter-spacing: 0.0375em;
 			}
 
